@@ -8,7 +8,6 @@
     "build": "webpack --config webpack.prod.js",
     "lint": "eslint . --fix",
     "test": "jest --passWithNoTests",
-    "test:ci": "npm run test -- --testResultsProcessor=\"jest-junit\" --watchAll=false --ci --coverage --testMatch **/tests/**/*.test.js cross-env JEST_TEST=false",
     "coverage": "jest --coverage",
     "preshow:coverage": "npm run coverage",
     "show:coverage": "live-server coverage/lcov-report",
