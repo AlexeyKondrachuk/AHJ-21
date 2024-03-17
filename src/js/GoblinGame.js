@@ -8,7 +8,7 @@ export default class GoblinGame {
 
   init() {
     let html = '';
-    for (let i = 0; i < this.size ** 2; i++) {
+    for (let i = 0; i < this.size * 2; i++) {
       html += '<div class="hole"></div>';
     }
    
