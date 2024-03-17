@@ -4,9 +4,10 @@
     "extends": ["eslint:recommended", "plugin:prettier/recommended"],
     "env": {
       "es6": true,
+      "node": true,
       "browser": true,
-      "jest/globals": true,
-      "node": true
+      "jest/globals": true
+      
     },
     "parserOptions": {
       "sourceType": "module"
